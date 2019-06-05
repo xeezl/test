@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container hide1">
+      <h1>Сколько было музыкантов в группе "Queen"?</h1>
+      <div class="col-12 border otvet1" id="otvet1">
+        <p>2</p>
+      </div>
+      <div class="col-12 border otvet2" id="otvet2">
+        <p>4</p>
+      </div>
+      <div class="col-12 border otvet3" id="otvet3">
+        <p>6</p>
+      </div>
+    </div>
+    <div class="container hide2" style="display: none;">
+    	<h1>Какая планета идет после Сатурна?</h1>
+    	 <div class="col-12 border otvet1" id="otvet4">
+        	<p>Юпитер</p>
+	     </div>
+	     <div class="col-12 border otvet2" id="otvet5">
+	        <p>Уран</p>
+	     </div>
+	     <div class="col-12 border otvet3" id="otvet6">
+	        <p>Нептун</p>
+	     </div>
+	 </div>
+	 <div class="container hide3" style="display: none;">
+	 	<img src="q3.jpg">
+    	<h1>Откуда этот персонаж?</h1>
+    	 <div class="col-12 border otvet1" id="otvet7">
+        	<p>Крестный отец</p>
+	     </div>
+	     <div class="col-12 border otvet2" id="otvet8">
+	        <p>Лицо со шрамом</p>
+	     </div>
+	     <div class="col-12 border otvet3" id="otvet9">
+	        <p>Шрек 2</p>
+	     </div>
+	 </div>
+	 <div class="container hide4" style="display: none;">
+	 	<img src="q4.jpg">
+    	<h1>Как зовут этого персонажа из фильма "Криминальное чтиво"</h1>
+    	 <div class="col-12 border otvet1" id="otvet10">
+        	<p>Джулс</p>
+	     </div>
+	     <div class="col-12 border otvet2" id="otvet11">
+	        <p>Винсент</p>
+	     </div>
+	     <div class="col-12 border otvet3" id="otvet12">
+	        <p>Джимми</p>
+	     </div>
+	 </div>
+	 <div class="container hide5" style="display: none;">
+	 	<img src="mello.webp" alt="" style="width: 500px; height: 500px;" class="mx-auto">
+    	<h1>Что это за диджей?</h1>
+    	 <div class="col-12 border otvet1" id="otvet13">
+        	<p>Skrillex</p>
+	     </div>
+	     <div class="col-12 border otvet2" id="otvet14">
+	        <p>Martin Garrix</p>
+	     </div>
+	     <div class="col-12 border otvet3" id="otvet15">
+	        <p>Marshmello</p>
+	     </div>
+	 </div>
+	 <div class="container hide6" style="display: none;">
+	 	<audio controls>
+	 		<source src="coolsaber.mp3">
+	 	</audio>
+    	<h1>???</h1>
+    	 <div class="col-12 border otvet1" id="otvet16">
+        	<p>Star Trek</p>
+	     </div>
+	     <div class="col-12 border otvet2" id="otvet17">
+	        <p>Star Wars</p>
+	     </div>
+	     <div class="col-12 border otvet3" id="otvet18">
+	        <p>Sponge Bob</p>
+	     </div>
+	 </div>
+	 <div class="container hide7" style="display: none;">
+    	<img src="spounge.jpg" alt="">
+    	 <div class="col-12 border otvet1" id="otvet19">
+        	<p>Морской Супермен и Очкарик</p>
+	     </div>
+	     <div class="col-12 border otvet2" id="otvet20">
+	        <p>Космический чебурек и Пришелец</p>
+	     </div>
+	     <div class="col-12 border otvet3" id="otvet21">
+	        <p>Братья из дна</p>
+	     </div>
+	 </div>
+    <script type="text/javascript">
+      document.querySelector(".otvet1"),
+      document.querySelector(".otvet2"),
+      document.querySelector(".otvet3"),
+//q1
+      otvet1.onclick = function() {
+        alert( 'каво?' );
+      };
+      otvet2.onclick = function() {
+        alert( 'е бой' );
+        display = document.querySelector(".hide1").style.display;
+	        if(display=='none'){
+	        	document.querySelector(".hide1").style.display='block';
+	        }else{
+	        	document.querySelector(".hide1").style.display='none';
+	       	}
+       	display = document.querySelector(".hide2").style.display;
+        	if(display=='none'){
+        		document.querySelector(".hide2").style.display='block';
+        	}else{
+        		document.querySelector(".hide2").style.display='none';
+       		}
+      };
+      otvet3.onclick = function() {
+        alert( 'no' );
+      };
+//q2
+      otvet4.onclick = function() {
+        alert( 'Нептун' );
+      };
+      otvet5.onclick = function() {
+        alert( 'Верно' );
+        display = document.querySelector(".hide2").style.display;
+	        if(display=='none'){
+	        	document.querySelector(".hide2").style.display='block';
+	        }else{
+	        	document.querySelector(".hide2").style.display='none';
+	       	}
+       	display = document.querySelector(".hide3").style.display;
+        	if(display=='none'){
+        		document.querySelector(".hide3").style.display='block';
+        	}else{
+        		document.querySelector(".hide3").style.display='none';
+       		}
+      };
+      otvet6.onclick = function() {
+        alert( 'Юпитер' );
+      };
+      //q3
+      otvet7.onclick = function() {
+        alert( 'Верно' );
+        display = document.querySelector(".hide3").style.display;
+	        if(display=='none'){
+	        	document.querySelector(".hide3").style.display='block';
+	        }else{
+	        	document.querySelector(".hide3").style.display='none';
+	       	}
+       	display = document.querySelector(".hide4").style.display;
+        	if(display=='none'){
+        		document.querySelector(".hide4").style.display='block';
+        	}else{
+        		document.querySelector(".hide4").style.display='none';
+       		}
+      };
+      otvet8.onclick = function() {
+        alert( 'nee' );
+      };
+      otvet9.onclick = function() {
+        alert( 'Ждем шрек 2 roflanSlojno' );
+      };
+      //q4
+      otvet10.onclick = function() {
+        alert( 'пофлексим' );
+        display = document.querySelector(".hide4").style.display;
+	        if(display=='none'){
+	        	document.querySelector(".hide4").style.display='block';
+	        }else{
+	        	document.querySelector(".hide4").style.display='none';
+	       	}
+       	display = document.querySelector(".hide5").style.display;
+        	if(display=='none'){
+        		document.querySelector(".hide5").style.display='block';
+        	}else{
+        		document.querySelector(".hide5").style.display='none';
+       		}
+      };
+      otvet11.onclick = function() {
+        alert( 'Рикардо' );
+      };
+      otvet12.onclick = function() {
+        alert( 'Милос' );
+      };
+      //q5
+      otvet13.onclick = function() {
+        alert( 'Неверно' );
+      };
+      otvet14.onclick = function() {
+        alert( 'Неверно' );
+      };
+      otvet15.onclick = function() {
+        alert( 'Неверно' );
+        display = document.querySelector(".hide5").style.display;
+	        if(display=='none'){
+	        	document.querySelector(".hide5").style.display='block';
+	        }else{
+	        	document.querySelector(".hide5").style.display='none';
+	       	}
+       	display = document.querySelector(".hide6").style.display;
+        	if(display=='none'){
+        		document.querySelector(".hide6").style.display='block';
+        	}else{
+        		document.querySelector(".hide6").style.display='none';
+       		}
+      };
+      //q6
+      otvet16.onclick = function() {
+        alert( 'Неверно' );
+      };
+      otvet17.onclick = function() {
+        alert( 'Верно' );
+        display = document.querySelector(".hide6").style.display;
+	        if(display=='none'){
+	        	document.querySelector(".hide6").style.display='block';
+	        }else{
+	        	document.querySelector(".hide6").style.display='none';
+	       	}
+       	display = document.querySelector(".hide7").style.display;
+        	if(display=='none'){
+        		document.querySelector(".hide7").style.display='block';
+        	}else{
+        		document.querySelector(".hide7").style.display='none';
+       		}
+      };
+      otvet18.onclick = function() {
+        alert( 'Неверно' );
+      };
+      //q7
+      otvet19.onclick = function() {
+        alert( 'Неверно' );
+        display = document.querySelector(".hide7").style.display;
+	        if(display=='none'){
+	        	document.querySelector(".hide7").style.display='block';
+	        }else{
+	        	document.querySelector(".hide7").style.display='none';
+	       	}
+      };
+      otvet20.onclick = function() {
+        alert( 'Верно' );
+      };
+      otvet21.onclick = function() {
+        alert( 'Неверно' );
+      };
+    </script>
+  </body>
+</html>
